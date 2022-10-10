@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 REQUIREMENT_FILE_NAME = "requirements.txt"
-REMOVE_PACKAGE = "-e ."
+REMOVE_PACKAGE = "-e."
 
 
 def get_requirement_list(requirement_file_name=REQUIREMENT_FILE_NAME) -> list:
